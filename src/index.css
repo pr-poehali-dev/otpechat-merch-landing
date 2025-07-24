@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +99,22 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'JetBrains Mono', monospace;
   }
+}
+
+/* Пунктирные линии - метафора кройки */
+@layer utilities {
+  .dotted-border {
+    border: 2px dashed #808080;
+  }
+  
+  .dotted-underline {
+    border-bottom: 2px dashed #FFFF00;
+  }
+  
+  .tag-shape {
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 50%, calc(100% - 20px) 100%, 0 100%);
+  }
+}
 }

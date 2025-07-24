@@ -61,7 +61,11 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// OTPECHAT MERCH STUDIO Colors
+				'lemon': '#FFFF00',
+				'industrial-black': '#000000',
+				'steel-gray': '#808080'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
